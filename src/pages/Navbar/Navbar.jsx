@@ -8,8 +8,8 @@ function Navbar() {
         </div>
         <div className="navbar-item flex flex-col justify-center items-center font-bold sm:flex sm:flex-row sm:justify-between ">
           <a className="sm:pr-[50px]"href="#home">Home</a>
-          <a className="sm:pr-[50px]"href="#about">About</a>
-          <a className="sm:pr-[50px]"href="#services">Services</a>
+          <a className="sm:pr-[50px]"href="#about">Skills</a>
+          <a className="sm:pr-[50px]"href="#services">Works</a>
           <a href="#contact">Contact</a>
         </div>
     </div>
