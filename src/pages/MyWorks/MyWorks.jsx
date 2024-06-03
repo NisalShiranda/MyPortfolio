@@ -2,6 +2,7 @@ import "./MyWorks.css"
 import {WorkCard} from "../../components/WorkCard"
 // import ProjectCard from "../../components/ProjectCard"
 import P1 from "../../../public/Hero Section.png"
+import P2 from "../../../public/images.jpeg"
 
 
 
@@ -24,15 +25,13 @@ function MyWorks() {
               imgSrc = {P1}
               imgAlt = "Picture 1"
               headingText = "My first Work"
-              descText = "Nisal Shiranda Ranasinghe I used Figma to work"
-            
-             />
+              descText = "Nisal Shiranda Ranasinghe I used Figma to work"/>
             </div>
             <div>
             <WorkCard 
-              imgSrc = {P1}
-              imgAlt = "Picture 1"
-              headingText = "My first Work"
+              imgSrc = {P2}
+              imgAlt = "Picture 2"
+              headingText = "My Second Work"
               descText = "Nisal Shiranda Ranasinghe I used Figma to work"
             
              />
@@ -40,7 +39,37 @@ function MyWorks() {
             <div><WorkCard 
               imgSrc = {P1}
               imgAlt = "Picture 1"
+              headingText = "My Third Work"
+              descText = "Nisal Shiranda Ranasinghe I used Figma to work"
+            
+             /></div>
+            <div><WorkCard 
+              imgSrc = {P1}
+              imgAlt = "Picture 1"
               headingText = "My first Work"
+              descText = "Nisal Shiranda Ranasinghe I used Figma to work"
+            
+             /></div>
+             <div>
+            <WorkCard 
+              imgSrc = {P1}
+              imgAlt = "Picture 1"
+              headingText = "My first Work"
+              descText = "Nisal Shiranda Ranasinghe I used Figma to work"/>
+            </div>
+            <div>
+            <WorkCard 
+              imgSrc = {P2}
+              imgAlt = "Picture 2"
+              headingText = "My Second Work"
+              descText = "Nisal Shiranda Ranasinghe I used Figma to work"
+            
+             />
+            </div>
+            <div><WorkCard 
+              imgSrc = {P1}
+              imgAlt = "Picture 1"
+              headingText = "My Third Work"
               descText = "Nisal Shiranda Ranasinghe I used Figma to work"
             
              /></div>
