@@ -12,7 +12,8 @@ function Hero() {
   return (
     <div className="hero md:flex md:flex-row">
         <div className="box1 flex flex-col justify-center items-center md:items-start md:justify-start md:w-[20%]">
-            <p className="font-bold text-[2rem] text-center md:text-start md:text-[3rem]">NISAL SHIRANDA<span className="text-[#F5D10D]">.</span></p>
+            <div><p className="font-bold text-[2rem] text-center md:text-start md:text-[3rem]">NISAL SHIRANDA<span className="text-[#F5D10D]">.</span></p>
+            </div>
             <div className="box1-line"></div>
             <div className="box1-icons pt-5 flex flex-row justify-center ">
                 <a href="#" className="facebook"><FaFacebook className="icon fb " /></a>
@@ -43,6 +44,7 @@ function Hero() {
                 <p className="text-[1.5rem] text-center md:text-end">UI/UX Engineer,</p>
                 <p className="text-[1.5rem] text-center md:text-end">Frontend Developer,</p>
                 <p className="text-[1.5rem] text-center md:text-end">Fullstack Developer,</p>
+                <p className="pt-5 text-justify md:text-end">Hi, I'm Nisal Shiranda, a passionate and dedicated UI/UX Engineer, Frontend Developer, and Full Stack Developer based in Negombo. With expertise in Figma, HTML, CSS, Tailwind CSS, React.js, Node.js, MongoDB, and Express.js, I bring a blend of creativity and technical skill to every project I undertake.</p>
                 
                 
             
