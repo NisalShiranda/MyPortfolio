@@ -2,7 +2,7 @@
     padding: 0 50px;
     padding-top: 20px;
     color: #FFFFFF;
-    height: 85vh;
+    
     
 }
 
@@ -49,6 +49,9 @@
 
 .box3{}
 
+.aboutme{
+    overflow: auto;
+}
 
 
 
