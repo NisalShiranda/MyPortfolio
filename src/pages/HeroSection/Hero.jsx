@@ -1,23 +1,53 @@
 import "./Hero.css";
+import { FaFacebook } from "react-icons/fa";
+import { RiInstagramFill } from "react-icons/ri";
+import { FaGithub } from "react-icons/fa6";
+import { FaBehanceSquare } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa6";
+import HeroImage from "../../../public/hero.png"
 
 
 
 function Hero() {
   return (
-    <div className="hero grid-cols-1 sm:grid sm:grid-cols-3">
-        <div className="box1  flex  flex-col ">
-            <div><p className="font-bold text-[2rem] text-center sm:text-start">NISAL SHIRANDA<span className="text-[#F5D10D]">.</span></p></div>
+    <div className="hero md:flex md:flex-row">
+        <div className="box1 flex flex-col justify-center items-center md:items-start md:justify-start md:w-[20%]">
+            <p className="font-bold text-[2rem] text-center md:text-start md:text-[3rem]">NISAL SHIRANDA<span className="text-[#F5D10D]">.</span></p>
             <div className="box1-line"></div>
-            <div className="box1-icons">
-                <a href="#" className="fb"></a>
+            <div className="box1-icons pt-5 flex flex-row justify-center ">
+                <a href="#" className="facebook"><FaFacebook className="icon fb " /></a>
+                <a href="#" className="instargram pl-2"><RiInstagramFill className="icon" /></a>
+                <a href="#" className="instargram pl-2"><FaGithub className="icon" /></a>
+                <a href="#" className="instargram pl-2"><FaBehanceSquare className="icon" /></a>
+                <a href="#" className="instargram pl-2"><FaLinkedinIn className="icon" /></a>
+            </div>
+
+            <div className="pt-5">
+                <p className="button">CONTACT ME</p>
+            </div>
+            <div className="pt-5">
+                <p className="button">DOWNLOAD CV</p>
+            </div>
+            
+        </div>
+        <div className="box2 md:w-[60%]">
+            <div className="box2-image pt-4 flex justify-center items-center ">
+            <img className="myImage md:w-[80%]"src={HeroImage} alt="hero-Image"></img>
+
             </div>
         </div>
-        <div className="box1 flex justify-center">
-            2
+
+        <div className="box3 pt-5 flex flex-col justify-center items-center md:items-end md:justify-start md:w-[20%]">
+        
+                <p className="text-[#F5D10D]">INTRODUCTION</p>
+                <p className="text-[1.5rem] text-center md:text-end">UI/UX Engineer,</p>
+                <p className="text-[1.5rem] text-center md:text-end">Frontend Developer,</p>
+                <p className="text-[1.5rem] text-center md:text-end">Fullstack Developer,</p>
+                
+                
+            
         </div>
-        <div className="box1 flex  justify-center sm:justify-end">
-            3
-        </div>
+        
 
     </div>
   )
