@@ -25,7 +25,8 @@ function MyWorks() {
               imgSrc = {P1}
               imgAlt = "Picture 1"
               headingText = "My first Work"
-              descText = "Nisal Shiranda Ranasinghe I used Figma to work"/>
+              descText = "Nisal Shiranda Ranasinghe I used Figma to work"
+              hoverText = "Mobile" />
             </div>
             <div>
             <WorkCard 
@@ -33,6 +34,7 @@ function MyWorks() {
               imgAlt = "Picture 2"
               headingText = "My Second Work"
               descText = "Nisal Shiranda Ranasinghe I used Figma to work"
+              hoverText = "Mobile"
             
              />
             </div>
@@ -41,6 +43,7 @@ function MyWorks() {
               imgAlt = "Picture 1"
               headingText = "My Third Work"
               descText = "Nisal Shiranda Ranasinghe I used Figma to work"
+              hoverText = "Mobile"
             
              /></div>
             <div><WorkCard 
@@ -48,6 +51,7 @@ function MyWorks() {
               imgAlt = "Picture 1"
               headingText = "My first Work"
               descText = "Nisal Shiranda Ranasinghe I used Figma to work"
+              hoverText = "Mobile"
             
              /></div>
              <div>
@@ -55,7 +59,10 @@ function MyWorks() {
               imgSrc = {P1}
               imgAlt = "Picture 1"
               headingText = "My first Work"
-              descText = "Nisal Shiranda Ranasinghe I used Figma to work"/>
+              descText = "Nisal Shiranda Ranasinghe I used Figma to work"
+              hoverText = "Mobile"
+              />
+              
             </div>
             <div>
             <WorkCard 
@@ -63,6 +70,7 @@ function MyWorks() {
               imgAlt = "Picture 2"
               headingText = "My Second Work"
               descText = "Nisal Shiranda Ranasinghe I used Figma to work"
+              hoverText = "Mobile"
             
              />
             </div>
@@ -71,6 +79,7 @@ function MyWorks() {
               imgAlt = "Picture 1"
               headingText = "My Third Work"
               descText = "Nisal Shiranda Ranasinghe I used Figma to work"
+              hoverText = "Mobile"
             
              /></div>
             <div><WorkCard 
@@ -78,6 +87,7 @@ function MyWorks() {
               imgAlt = "Picture 1"
               headingText = "My first Work"
               descText = "Nisal Shiranda Ranasinghe I used Figma to work"
+              hoverText = "Mobile"
             
              /></div>
         </div>

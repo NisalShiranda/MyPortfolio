@@ -10,7 +10,8 @@
 
 }
 
-.image{
+.image:hover{
+    opacity: 1;
      
 }
 

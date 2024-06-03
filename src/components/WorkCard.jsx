@@ -9,6 +9,7 @@ export const WorkCard = ({
     imgAlt,
     headingText,
     descText,
+    hoverText,
 
 
 
@@ -19,6 +20,9 @@ export const WorkCard = ({
             <div className="card-container">
                 <div className="card-img">
                     <img className="image" src={imgSrc} alt={imgAlt}/>
+                    <div className="content">
+                        <p className="hover bg-transparent text-[#F5D10D] font-semibold">{hoverText}</p>
+                    </div>
                 </div>
                 <div className="card-content">
                     <p className="heading text-white text-sm font-bold ">{headingText}</p>
@@ -43,6 +47,7 @@ WorkCard.propTypes = {
     imgAlt: PropTypes.string,
     headingText: PropTypes.string,
     descText: PropTypes.string,
+    hoverText: PropTypes.string,
     
  
    };
