@@ -8,8 +8,8 @@ import {WorkCard} from '../../components/WorkCard'
 
 
 
-import U1 from "../../../public/U1.png"
-import P2 from "../../../public/images.jpeg"
+import U1 from "../../../public/U2.png"
+// import P2 from "../../../public/images.jpeg"
 import W1 from "../../../public/w1.png"
 import W2 from "../../../public/W2.png"
 import W3 from "../../../public/W3.png"
@@ -35,6 +35,7 @@ function MyWorks(   ) {
  
   return (
     <>
+    <section id="works">
       <div className="myworks ">
         <div className="myworks-title pt-5 px-[50px]">
           <p className="text-[#F5D10D] text-[2rem] text-center font-bold">
@@ -360,7 +361,7 @@ function MyWorks(   ) {
       <div className="notfound">
         <p>ooooooooooooNo</p>
       </div>
-    
+    </section>
     </>
   )
      

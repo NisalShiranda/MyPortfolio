@@ -2,18 +2,20 @@
     padding: 0 50px;
     padding-top: 20px;
     color: #FFFFFF;
+    background: transparent;
     
     
 }
 
 .box1{
+    background: transparent;
     
 }
 
 .box1-line{
     width: 80%;
     height: 2px;
-    background-color: #F5D10D;
+    background-color: transparent;
     
 }
 
@@ -32,25 +34,44 @@
     border-width: 2px;
 }
 
+p{
+    background-color: transparent;
+}
 
+.box2-image{
+    
+    background: transparent;
+
+}
 
 
 
 
 .box2{
+    background: transparent;
     /* with: 80%; */
 }
 
 .myImage{
     width: 100%;
+    background: transparent;
   
 }
 
 
-.box3{}
+.box3{
+    background: transparent;
+    /* with: 80%; */
+}
 
 .aboutme{
     overflow: auto;
+    background: transparent;
+}
+
+.box1-icons{
+    background: transparent;
+    /* with: 80%; */
 }
 
 

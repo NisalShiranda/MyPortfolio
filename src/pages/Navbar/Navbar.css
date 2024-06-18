@@ -2,6 +2,7 @@
     padding: 0 50px;
     padding-top: 20px;
     color: #FFFFFF;
+    background: transparent;
     /* display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -11,6 +12,15 @@
 .navbar-logo{
     font-size: 3rem;
     
-    text-decoration: none;
+    background: transparent;
     color: #FFFFFF;
+   
+}
+
+.navbar-item{
+    background: transparent;
+}
+
+.item{
+    background: transparent;
 }

@@ -4,7 +4,7 @@ import "./ContactSection.css"
 function ContactSection() {
   return (
     <>
-        <div className="contact pt-8 px-[50px] pb-8">
+        <div className="contact pt-8 px-[50px] pb-8" id="contact">
                 <div>
                     <p className="text-[#F5D10D] text-[2rem] text-center font-bold">CONTACT ME</p>
                     <p className="text-white text-center font-light">Please Send me a Message.</p>

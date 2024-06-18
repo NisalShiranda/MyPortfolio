@@ -11,6 +11,7 @@ import Footer from "./pages/FooterSection/Footer"
 // import Web from './components/Web'
 // import Ui from './components/UI'
 import './App.css'
+import BacktoTopButton from "./components/BackToTopButton"
 
 function App() {
   
@@ -27,6 +28,7 @@ function App() {
       <MyWorks  />
       <Contact />
       <Footer />
+      <BacktoTopButton />
       
     </>
   )

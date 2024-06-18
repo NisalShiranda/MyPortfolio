@@ -10,20 +10,20 @@ import HeroImage from "../../../public/hero.png"
 
 function Hero() {
   return (
-    <div className="hero md:flex md:flex-row">
+    <div className="hero md:flex md:flex-row " id="home">
         <div className="box1 flex flex-col justify-center items-center md:items-start md:justify-start md:w-[20%] lg:pt-16">
-            <div className="nisal"><p className="font-bold text-[2rem] text-center md:text-start md:text-[3rem]">NISAL SHIRANDA<span className="text-[#F5D10D]">.</span></p>
+            <div className="nisal bg-transparent"><p className="font-bold text-[2rem] text-center bg-transparent md:text-start md:text-[3rem]">NISAL SHIRANDA<span className="text-[#F5D10D]">.</span></p>
             </div>
-            <div className="box1-line"></div>
+            <div className="box1-line transparent"></div>
             <div className="box1-icons pt-5 flex flex-row justify-center ">
-                <a href="#" className="facebook"><FaFacebook className="icon fb " /></a>
+                <a href="#" className="facebook bg-transparent"><FaFacebook className="icon fb " /></a>
                 <a href="#" className="instargram pl-2"><RiInstagramFill className="icon" /></a>
                 <a href="#" className="instargram pl-2"><FaGithub className="icon" /></a>
                 <a href="#" className="instargram pl-2"><FaBehanceSquare className="icon" /></a>
                 <a href="#" className="instargram pl-2"><FaLinkedinIn className="icon" /></a>
             </div>
 
-            <div className="pt-5">
+            <div className="pt-5 bg-transparent">
                 <p className="button">CONTACT ME</p>
             </div>
             <div className="pt-5">
@@ -31,7 +31,7 @@ function Hero() {
             </div>
             
         </div>
-        <div className="box2 md:w-[60%]">
+        <div className="box2 md:w-[60%] bg-transparent">
             <div className="box2-image pt-4 flex justify-center items-center ">
             <img className="myImage md:w-[80%]"src={HeroImage} alt="hero-Image"></img>
 
