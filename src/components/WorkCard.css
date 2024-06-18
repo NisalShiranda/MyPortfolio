@@ -35,6 +35,7 @@
 
 .content:hover{
     opacity: 6;
+    cursor: pointer;
 }
 
 .card-content{

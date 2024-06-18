@@ -5,3 +5,31 @@
 .toggle{
     display: block;
 }
+
+.works-btn{
+  
+    color: white;
+    border: 1px solid white;
+    background: transparent;
+    border-radius:50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.4s all ease-in-out 0s;
+    
+    
+}
+
+.works-btn:hover{
+    color: #F5D10D;
+    border: 1px solid #F5D10D;
+    background-color: # #F5D10D;
+    
+}
+
+.works-btn:active {
+    background-color: #F5D10D;
+  }
+
+
+

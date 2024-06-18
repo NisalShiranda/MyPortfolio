@@ -3,7 +3,7 @@ import  { useEffect, useState } from 'react';
 const skills = [
   { name: 'HTML', level: '90%' },
   { name: 'CSS', level: '85%' },
-  { name: 'SASS', level: '80%' },
+  { name: 'TailwindCSS', level: '80%' },
   { name: 'JavaScript', level: '80%' },
   { name: 'ReactJS', level: '75%' },
   { name: 'NodeJS', level: '70%' },
