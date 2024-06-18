@@ -45,7 +45,7 @@ function Hero() {
                 <p className="text-[1.5rem] text-center md:text-end">Frontend Developer,</p>
                 <p className="text-[1.5rem] text-center md:text-end">Fullstack Developer,</p>
                 <div className="aboutme">
-                <p className="pt-5 text-justify md:text-end">Hi, I am Nisal Shiranda, a passionate and dedicated UI/UX Engineer, Frontend Developer, and Full Stack Developer based in Negombo. With expertise in Figma, HTML, CSS, Tailwind CSS, React.js, Node.js, MongoDB, and Express.js, I bring a blend of creativity and technical skill to every project I undertake. My journey in tech has been fueled by a love for creating intuitive and engaging user experiences. I have a knack for transforming complex problems into elegant, user-friendly designs and seamless web applications.</p>
+                <p className="pt-5 text-justify md:text-end md:hidden xl:block">Hi, I am Nisal Shiranda, a passionate and dedicated UI/UX Engineer, Frontend Developer, and Full Stack Developer based in Negombo. With expertise in Figma, HTML, CSS, Tailwind CSS, React.js, Node.js, MongoDB, and Express.js. <div className="hidden xl:block">I bring a blend of creativity and technical skill to every project I undertake. My journey in tech has been fueled by a love for creating intuitive and engaging user experiences. I have a knack for transforming complex problems into elegant, user-friendly designs and seamless web applications.</div></p>
                 </div>
                 
                 
