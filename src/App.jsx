@@ -1,3 +1,6 @@
+
+
+
 import Navbar from "./pages/Navbar/Navbar"
 import Hero from "./pages/HeroSection/Hero"
 import Banner from "./pages/BannerSection/Banner"
@@ -5,9 +8,14 @@ import Skills from "./pages/SkillsSection/Skills"
 import MyWorks from "./pages/MyWorks/MyWorks"
 import Contact from "./pages/Contact/ContactSection"
 import Footer from "./pages/FooterSection/Footer"
+// import Web from './components/Web'
+// import Ui from './components/UI'
 import './App.css'
 
 function App() {
+  
+    
+   
   
 
   return (
@@ -16,9 +24,10 @@ function App() {
       <Hero />
       <Banner />
       <Skills />
-      <MyWorks />
+      <MyWorks  />
       <Contact />
       <Footer />
+      
     </>
   )
 }

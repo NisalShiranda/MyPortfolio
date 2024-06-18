@@ -12,7 +12,7 @@ function Hero() {
   return (
     <div className="hero md:flex md:flex-row">
         <div className="box1 flex flex-col justify-center items-center md:items-start md:justify-start md:w-[20%] lg:pt-16">
-            <div><p className="font-bold text-[2rem] text-center md:text-start md:text-[3rem]">NISAL SHIRANDA<span className="text-[#F5D10D]">.</span></p>
+            <div className="nisal"><p className="font-bold text-[2rem] text-center md:text-start md:text-[3rem]">NISAL SHIRANDA<span className="text-[#F5D10D]">.</span></p>
             </div>
             <div className="box1-line"></div>
             <div className="box1-icons pt-5 flex flex-row justify-center ">
