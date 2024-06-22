@@ -16,11 +16,11 @@ function Hero() {
             </div>
             <div className="box1-line transparent"></div>
             <div className="box1-icons pt-5 flex flex-row justify-center ">
-                <a href="#" className="facebook bg-transparent"><FaFacebook className="icon fb " /></a>
-                <a href="#" className="instargram pl-2"><RiInstagramFill className="icon" /></a>
-                <a href="#" className="instargram pl-2"><FaGithub className="icon" /></a>
-                <a href="#" className="instargram pl-2"><FaBehanceSquare className="icon" /></a>
-                <a href="#" className="instargram pl-2"><FaLinkedinIn className="icon" /></a>
+                <a href="https://web.facebook.com/nisal.shiranda/" className="facebook bg-transparent"><FaFacebook className="icon fb " /></a>
+                <a href="https://www.instagram.com/_nixzaa_/?hl=en" className="instargram pl-2"><RiInstagramFill className="icon" /></a>
+                <a href="https://github.com/NisalShiranda" className="instargram pl-2"><FaGithub className="icon" /></a>
+                <a href="https://www.behance.net/nisalshiranda" className="instargram pl-2"><FaBehanceSquare className="icon" /></a>
+                <a href="https://www.linkedin.com/in/nshiranda/" className="instargram pl-2"><FaLinkedinIn className="icon" /></a>
             </div>
 
             <div className="pt-5 bg-transparent">
