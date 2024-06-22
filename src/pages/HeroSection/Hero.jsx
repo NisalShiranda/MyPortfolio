@@ -29,7 +29,7 @@ function Hero() {
                 {/* <p className="button">CONTACT ME</p> */}
             </div>
             <div className="pt-5">
-                <a href="https://drive.google.com/file/d/1tq9V0GrUbjFzv2Rtc2Ft_aZ1ia2XkQh5/view" target="_blank"><p className="button">DOWNLOAD CV</p></a>
+                <a href="https://drive.google.com/file/d/1tq9V0GrUbjFzv2Rtc2Ft_aZ1ia2XkQh5/view?usp=sharing" target="_blank"><p className="button">DOWNLOAD CV</p></a>
             </div>
             
         </div>
