@@ -5,6 +5,7 @@ import { FaGithub } from "react-icons/fa6";
 import { FaBehanceSquare } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import HeroImage from "../../../public/hero.png"
+import {HashLink as Link} from 'react-router-hash-link';
 
 
 
@@ -24,7 +25,8 @@ function Hero() {
             </div>
 
             <div className="pt-5 bg-transparent">
-                <p className="button">CONTACT ME</p>
+                {/* <Link className="" to="#contact" smooth>CONTACT</Link> */}
+                {/* <p className="button">CONTACT ME</p> */}
             </div>
             <div className="pt-5">
                 <a href="https://drive.google.com/file/d/1tq9V0GrUbjFzv2Rtc2Ft_aZ1ia2XkQh5/view" target="_blank"><p className="button">DOWNLOAD CV</p></a>
