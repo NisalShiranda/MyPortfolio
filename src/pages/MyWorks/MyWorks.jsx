@@ -8,7 +8,7 @@ import {WorkCard} from '../../components/WorkCard'
 
 
 
-import U1 from "../../../public/U2.png"
+import U1 from "../../../public/Hero Section.png"
 // import P2 from "../../../public/images.jpeg"
 import W1 from "../../../public/w1.png"
 import W2 from "../../../public/W2.png"
@@ -38,10 +38,10 @@ function MyWorks(   ) {
     <section id="works">
       <div className="myworks ">
         <div className="myworks-title pt-5 px-[50px]">
-          <p className="text-[#F5D10D] text-[2rem] text-center font-bold">
+          <p className="text-[2rem] text-center font-bold">
             MY WORKS
           </p>
-          <p className="text-white text-center font-light">
+          <p className=" text-center font-light">
             Here are some of the projects I have worked on. Click on the project
             to view more details.
           </p>
@@ -71,7 +71,7 @@ function MyWorks(   ) {
 
       <div className={toggle === 1 ? "toggle" : "notfound"} >
         <div className="toggle pt-5">
-          <div className="grid grid-cols-1 py-4 gap-2 px-[50px] lg:px-[200px] sm:grid sm:grid-cols-2 md:grid-cols-4">
+          <div className="grid grid-cols-1 py-4 gap-8 px-[50px] lg:px-[200px] sm:grid sm:grid-cols-2 md:grid-cols-3">
           <div>
               <WorkCard
                 imgSrc={W1}
@@ -194,7 +194,7 @@ function MyWorks(   ) {
 
       <div className={toggle === 2 ? "toggle" : "notfound"}>
       <div className="toggle pt-5">
-          <div className="grid grid-cols-1 py-4 gap-2 px-[50px] lg:px-[200px] sm:grid sm:grid-cols-2 md:grid-cols-4">
+          <div className="grid grid-cols-1 py-4 gap-8 px-[50px] lg:px-[200px] sm:grid sm:grid-cols-2 md:grid-cols-3">
             <div>
               <WorkCard
                 imgSrc={W1}
@@ -268,7 +268,7 @@ function MyWorks(   ) {
 
       <div className={toggle === 3 ? "toggle" : "notfound"}>
       <div className="toggle pt-5">
-          <div className="grid grid-cols-1 py-4 gap-2 px-[50px] lg:px-[200px] sm:grid sm:grid-cols-2 md:grid-cols-4">
+          <div className="grid grid-cols-1 py-4 gap-8 px-[50px] lg:px-[200px] sm:grid sm:grid-cols-2 md:grid-cols-3">
             <div>
               <WorkCard
                 imgSrc={U1}

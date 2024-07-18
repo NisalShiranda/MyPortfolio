@@ -20,7 +20,7 @@ const SkillsSection = () => {
   }, []);
 
   return (
-    <section className=" py-10 text-white">
+    <section className="mt-12 mb-12 text-white">
       <div className="container mx-auto px-10">
         {/* <h2 className="text-2xl font-bold mb-6">My <span className="text-orange-500">Skills</span></h2> */}
         {/* <p className="mb-8">Here are my skills to represent my expertise:</p> */}

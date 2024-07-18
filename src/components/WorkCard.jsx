@@ -24,12 +24,12 @@ export const WorkCard = ({
                 <div className="card-img">
                     <img className="image" src={imgSrc} alt={imgAlt}/>
                     <div className="content">
-                        <p className="hover bg-transparent hidden text-white font-light text-center lg:block">{hoverText}</p>
+                        <p className="hover bg-transparent hidden  font-light text-center lg:block text-white">{hoverText}</p>
                     </div>
                 </div>
                 <div className="card-content">
-                    <p className="heading text-white text-sm font-bold ">{headingText}</p>
-                    <p className="description text-xs font-thin text-white">{descText}</p>
+                    <p className="heading  text-sm font-bold ">{headingText}</p>
+                    <p className="description text-xs font-md text-[#F5D10D] ">{descText}</p>
                     <div className="card-logos flex pt-2">
                         <div className="px-2"><a href={linkg}><FaGithub className="text-[#F5D10D] text-xl" /></a></div>
                         <div className="px-2"><a href={linkf}><CgFigma className="text-[#F5D10D]"   /></a></div>

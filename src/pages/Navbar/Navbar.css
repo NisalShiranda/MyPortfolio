@@ -1,7 +1,7 @@
 .navbar{
     padding: 0 50px;
     padding-top: 20px;
-    color: #FFFFFF;
+    
     background: transparent;
     /* display: flex;
     flex-direction: row;
@@ -19,6 +19,7 @@
 
 .navbar-item{
     background: transparent;
+    
 }
 
 .item{

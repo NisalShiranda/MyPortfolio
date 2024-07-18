@@ -47,14 +47,15 @@ function Hero() {
                 <p className="text-[1.5rem] text-center md:text-end">Frontend Developer,</p>
                 <p className="text-[1.5rem] text-center md:text-end">Fullstack Developer,</p>
                 <div className="aboutme">
-                <p className="pt-5  md:text-center md:hidden xl:block">Hi, I am Nisal Shiranda, a passionate and dedicated UI/UX Engineer, Frontend Developer, and Full Stack Developer based in Negombo. With expertise in Figma, HTML, CSS, Tailwind CSS, React.js, Node.js, MongoDB, and Express.js. <div className="hidden ">I bring a blend of creativity and technical skill to every project I undertake. My journey in tech has been fueled by a love for creating intuitive and engaging user experiences. I have a knack for transforming complex problems into elegant, user-friendly designs and seamless web applications.</div></p>
+                <p className="pt-5 text-center md:text- md:hidden xl:block">Hi, I am Nisal Shiranda, a passionate and dedicated UI/UX Engineer, Frontend Developer, and Full Stack Developer based in Negombo. With expertise in Figma, HTML, CSS, Tailwind CSS, React.js, Node.js, MongoDB, and Express.js. <div className="hidden ">I bring a blend of creativity and technical skill to every project I undertake. My journey in tech has been fueled by a love for creating intuitive and engaging user experiences. I have a knack for transforming complex problems into elegant, user-friendly designs and seamless web applications.</div></p>
                 </div>
                 
                 
             
         </div>
 
-        {/* <div className="absolute z-[-2] bg-red-700 w-[200px] h-[200px] blur-[100px] top-[200px] left-[250px]"></div> */}
+        {/* <div className="absolute z-[-2] bg-[#fdd421] w-[200px] h-[200px] blur-[100px] top-[50px] left-[250px]"></div> */}
+        
         
 
     </div>
