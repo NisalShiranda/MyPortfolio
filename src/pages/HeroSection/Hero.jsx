@@ -11,13 +11,13 @@ import {HashLink as Link} from 'react-router-hash-link';
 
 function Hero() {
   return (
-    <div className="hero md:flex md:flex-row " id="home">
-        <div className="box1 flex flex-col justify-center items-center md:items-start md:justify-start md:w-[20%] lg:pt-16">
-            <div className="nisal bg-transparent"><p className="font-bold text-[2rem] text-center bg-transparent md:text-start md:text-[3rem]">NISAL SHIRANDA<span className="text-[#F5D10D]">.</span></p>
+    <div className="hero md:flex md:flex-row xl:mb-16 " id="home">
+        <div className="box1 flex flex-col justify-center items-center md:items-center md:justify-center md:w-[20%] lg:pt-16">
+            <div className="nisal bg-transparent"><p className="font-bold text-[2rem] text-center bg-transparent md:text-center md:text-[3rem]">NISAL SHIRANDA<span className="text-[#F5D10D]">.</span></p>
             </div>
             <div className="box1-line transparent"></div>
-            <div className="box1-icons pt-5 flex flex-row justify-center ">
-                <a href="https://web.facebook.com/nisal.shiranda/" className="facebook bg-transparent"><FaFacebook className="icon fb " /></a>
+            <div className="box1-icons pt-5 flex flex-row justify-center">
+                <a href="https://web.facebook.com/nisal.shiranda/" className="facebook bg-transparent "><FaFacebook className="icon fb " /></a>
                 <a href="https://www.instagram.com/_nixzaa_/?hl=en" className="instargram pl-2"><RiInstagramFill className="icon" /></a>
                 <a href="https://github.com/NisalShiranda" className="instargram pl-2"><FaGithub className="icon" /></a>
                 <a href="https://www.behance.net/nisalshiranda" className="instargram pl-2"><FaBehanceSquare className="icon" /></a>
@@ -35,24 +35,26 @@ function Hero() {
         </div>
         <div className="box2 md:w-[60%] bg-transparent">
             <div className="box2-image pt-4 flex justify-center items-center ">
-            <img className="myImage md:w-[80%]"src={HeroImage} alt="hero-Image"></img>
+            <img className="myImage md:w-[60%]"src={HeroImage} alt="hero-Image"></img>
 
             </div>
         </div>
 
-        <div className="box3 pt-5 flex flex-col justify-center items-center md:items-end md:justify-start md:w-[20%]">
+        <div className="box3 pt-5 flex flex-col justify-center items-center md:items-center md:justify-center md:w-[20%]">
         
                 <p className="text-[#F5D10D]">INTRODUCTION</p>
                 <p className="text-[1.5rem] text-center md:text-end">UI/UX Engineer,</p>
                 <p className="text-[1.5rem] text-center md:text-end">Frontend Developer,</p>
                 <p className="text-[1.5rem] text-center md:text-end">Fullstack Developer,</p>
                 <div className="aboutme">
-                <p className="pt-5 text-justify md:text-end md:hidden xl:block">Hi, I am Nisal Shiranda, a passionate and dedicated UI/UX Engineer, Frontend Developer, and Full Stack Developer based in Negombo. With expertise in Figma, HTML, CSS, Tailwind CSS, React.js, Node.js, MongoDB, and Express.js. <div className="hidden xl:block">I bring a blend of creativity and technical skill to every project I undertake. My journey in tech has been fueled by a love for creating intuitive and engaging user experiences. I have a knack for transforming complex problems into elegant, user-friendly designs and seamless web applications.</div></p>
+                <p className="pt-5  md:text-center md:hidden xl:block">Hi, I am Nisal Shiranda, a passionate and dedicated UI/UX Engineer, Frontend Developer, and Full Stack Developer based in Negombo. With expertise in Figma, HTML, CSS, Tailwind CSS, React.js, Node.js, MongoDB, and Express.js. <div className="hidden ">I bring a blend of creativity and technical skill to every project I undertake. My journey in tech has been fueled by a love for creating intuitive and engaging user experiences. I have a knack for transforming complex problems into elegant, user-friendly designs and seamless web applications.</div></p>
                 </div>
                 
                 
             
         </div>
+
+        {/* <div className="absolute z-[-2] bg-red-700 w-[200px] h-[200px] blur-[100px] top-[200px] left-[250px]"></div> */}
         
 
     </div>
