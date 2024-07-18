@@ -32,12 +32,12 @@ const Contact = () => {
   return (
     <StyledContactForm>
       <form ref={form} onSubmit={sendEmail}>
-        <label className="text-white">Name</label>
-        <input className="text-white"type="text" name="user_name" />
-        <label className="text-white" >Email</label>
-        <input className="text-white"type="email" name="user_email" />
-        <label className="text-white">Message</label>
-        <textarea className="text-white"name="message" />
+        <label className="">Name</label>
+        <input className=""type="text" name="user_name" />
+        <label className="" >Email</label>
+        <input className=""type="email" name="user_email" />
+        <label className="">Message</label>
+        <textarea className=""name="message" />
         <input className="font-bold text-black"type="submit" value="SEND" />
       </form>
     </StyledContactForm>
