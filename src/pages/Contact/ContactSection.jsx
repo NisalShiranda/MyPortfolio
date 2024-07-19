@@ -1,10 +1,12 @@
 import "./ContactSection.css"
   import Contact from "../../components/Conact"
+  
 
 function ContactSection() {
+  
   return (
     <>
-        <div className="contact pt-8 px-[50px] pb-8" id="contact">
+        <div className="contact pt-8 px-[50px] pb-8" id="contact"  >
                 <div>
                     <p className="text-[#F5D10D] text-[2rem] text-center font-bold">CONTACT ME</p>
                     <p className=" text-center font-light">Please Send me a Message.</p>

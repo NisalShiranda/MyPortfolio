@@ -10,9 +10,10 @@ import {HashLink as Link} from 'react-router-hash-link';
 
 
 function Hero() {
+    
   return (
     <div className="hero md:flex md:flex-row xl:mb-16 " id="home">
-        <div className="box1 flex flex-col justify-center items-center md:items-center md:justify-center md:w-[20%] lg:pt-16">
+        <div className="box1 flex flex-col justify-center items-center md:items-center md:justify-center md:w-[20%] lg:pt-16 " >
             <div className="nisal bg-transparent"><p className="font-bold text-[2rem] text-center bg-transparent md:text-center md:text-[3rem]">NISAL SHIRANDA<span className="text-[#F5D10D]">.</span></p>
             </div>
             <div className="box1-line transparent"></div>
@@ -29,7 +30,7 @@ function Hero() {
                 {/* <p className="button">CONTACT ME</p> */}
             </div>
             <div className="pt-5">
-                <a href="https://drive.google.com/file/d/1tq9V0GrUbjFzv2Rtc2Ft_aZ1ia2XkQh5/view?usp=sharing" target="_blank"><p className="button">DOWNLOAD CV</p></a>
+                <a href="https://drive.google.com/file/d/1-qNdJI0G_cY1sxNFC0rF1Omz4WwF7HS6/view?usp=sharing" target="_blank"><p className="button">DOWNLOAD CV</p></a>
             </div>
             
         </div>
@@ -40,7 +41,7 @@ function Hero() {
             </div>
         </div>
 
-        <div className="box3 pt-5 flex flex-col justify-center items-center md:items-center md:justify-center md:w-[20%]">
+        <div className="box3 pt-5 flex flex-col justify-center items-center md:items-center md:justify-center md:w-[20%]" >
         
                 <p className="text-[#F5D10D]">INTRODUCTION</p>
                 <p className="text-[1.5rem] text-center md:text-end">UI/UX Engineer,</p>
