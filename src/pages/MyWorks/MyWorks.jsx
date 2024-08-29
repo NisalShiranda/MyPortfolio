@@ -24,7 +24,7 @@ import W7 from "../../../public/w7.png"
 import W8 from "../../../public/w8.png"
 import U6 from "../../../public/u6.png"
 import AOS from 'aos';
-import 'aos/dist/aos.css';
+// import 'aos/dist/aos.css';
 
 
 
